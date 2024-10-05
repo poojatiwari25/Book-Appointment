@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Appointment Book</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class="container">
+<h2>Book Your Appointment here</h2>
+    <form id="appointmentForm">
+        <select id="selectGroup" class="dcr">
+            <option disabled selected>Specialities</option>
+        </select>
+        <select id="doctor" class="dcr">
+            <option disabled selected>Available Doctor</option>
+        </select>
+        <select id="appointmentTime" name="appointmentTime" class="dcr">
+            <option value="10:00">10:00 AM</option>
+            <option value="11:00">11:00 AM</option>
+            <option value="12:00">12:00 PM</option>
+            <option value="1:00">1:00 PM</option>
+            <option value="2:00">2:00 PM</option>
+            <option value="6:00">6:00 PM</option>
+            <option value="6:30">6:30 PM</option>
+            <option value="7:00">7:00 PM</option>
+            <option value="7:30">7:30 PM</option>
+            <option value="8:00">8:00 PM</option>
+            <option value="8:30">8:30 PM</option>
+            <option value="9:00">9:00 PM</option>
+        </select>
+        <button type="submit" class="dcr">Book Appointment</button>
+    </form>
+    <div class="audio-player">
+        <audio id="notification">
+            <source src="myaudio.ogg" type="audio/ogg">
+        </audio>
+    </div>
+</div>
+<div class="popup" id="popup">
+    <div class="popup-content">
+        <p id="popup-message"></p>
+    </div>
+</div>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

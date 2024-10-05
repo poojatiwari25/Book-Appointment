@@ -1,0 +1,70 @@
+ body{
+       background-color: lightblue;
+        }
+        .audio-player {
+            width: 300px;
+            margin: 20px;
+        }
+        .container {
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+            margin-left: 147px;
+            border-radius: 20px;
+            height: 360px;
+        }
+       .dcr {
+		    font-size: 16px;
+		    padding: 10px;
+		    margin-top: 71px;
+		    border-radius: 6px;
+		    width: 182px;
+		    border: none;
+		    height: 54px;
+		    letter-spacing: 0.1px;
+		    margin-right: 20px;
+       }
+        select {
+            background: url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png) no-repeat right #ddd;
+            -webkit-appearance: none;
+            background-position-x: 148px;
+        }
+        button.dcr {
+            background: black;
+            color: white;
+            font-size: 16px;
+        }
+        .popup {
+            display: none;
+            position: fixed;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 1;
+            justify-content: center;
+            align-items: center;
+        }
+        .popup-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+           text-align: center;
+        }
+        h2 {
+		    margin-left: -19px;
+		    font-family: auto;
+		    color: cornsilk;
+		    font-weight: 600;
+		    padding-top: 15px;
+        }
+		form#appointmentForm {
+		    height: 226px;
+		    width: 965px;
+		    margin-left: 65px;
+		    margin-top: 26px;
+		    border-style: inset;
+		    border-color: cornsilk;
+}
